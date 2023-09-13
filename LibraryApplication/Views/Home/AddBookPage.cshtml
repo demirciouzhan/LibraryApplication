@@ -1,0 +1,27 @@
+﻿@model LibraryApplication.Models.Books
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1 class="text-center">Kitap Ekle</h1>
+            @using (Html.BeginForm("UploadImage", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                <div class="form-group">
+                    <label for="BookName">Kitap Adı:</label>
+                    <input type="text" class="form-control" id="BookName" name="book.BookName" required>
+                </div>
+                <div class="form-group">
+                    <label for="Writer">Yazarı:</label>
+                    <input type="text" class="form-control" id="Writer" name="book.Writer" required>
+                </div>
+                <div class="form-group">
+                    <label for="ImageFile">Resim:</label>
+                    <input type="file" class="form-control-file" id="ImageFile" name="file" accept=".jpg, .jpeg, .png" required>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Kitap Ekle</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>

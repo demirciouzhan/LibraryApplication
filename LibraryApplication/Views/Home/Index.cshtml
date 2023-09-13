@@ -1,0 +1,61 @@
+﻿@using LibraryApplication.Models
+@model List<Books>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using (Html.BeginForm())
+{
+    <body>
+        <table id="grdUsers" class="table table-success table-striped overflow-scroll display grdUsers">
+            <tr>
+                <th>Kitap Adı</th>
+                <th>Yazarı</th>
+                <th>Resmi</th>
+                <th>Durumu</th>
+                @if (Model.Any(x => x.Location != "Kütüphane"))
+                {
+                    <th>Müşteri Adı:</th>
+                    <th>Geri getireceği tarih:</th>
+                }
+                <th>
+                    @using (Html.BeginForm("AddBook", "Home", FormMethod.Post))
+                    {
+                        <input type="submit" name="AddBook" value="Kitap Ekle" asp-action="Book" class="btn btn-success" />
+                    }
+                </th>
+            </tr>
+            @{
+                var sortedBooks = Model.OrderBy(x => x.BookName); // Kitapları alfabetik olarak sırala
+            }
+            @foreach (var x in sortedBooks)
+            {
+                <tr>
+                    <td>@x.BookName</td>
+                    <td>@x.Writer</td>
+                    <td><img src="@x.ImageURL" alt="Kitap Resmi" width="100" height="100" /></td>
+                    <td>@x.Location</td>
+                    @if (x.Location == "Kütüphane")
+                    {
+                        <td></td> <!-- Müşteri ve Geri Getirme sütunlarını boş bırakın -->
+                        <td></td>
+                        <td>
+                            @using (Html.BeginForm("Customer", "Home", FormMethod.Post))
+                            {
+                                <input type="hidden" name="bookId" value="@x.Id" />
+                                <input type="submit" name="Customer" value="Ödünç ver" asp-action="Customer" class="btn btn-danger" />
+                            }
+                        </td>
+                    }
+                    else
+                    {
+                        <td>@x.Customer</td>
+                        <td>@x.Backtime</td>
+                        <td></td> <!-- "Ödünç Ver" butonunu gösterme -->
+                    }
+                </tr>
+            }
+        </table>
+    </body>
+}

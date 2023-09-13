@@ -1,0 +1,46 @@
+﻿@model LibraryApplication.Models.Books
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <!-- Sayfa başlığı - Müşteri Bilgileri -->
+            <h1 class="text-center">Müşteri Bilgileri</h1>
+            <!-- Müşteri bilgileri giriş formunu başlatır -->
+            @using (Html.BeginForm())
+            {
+                <!-- Müşteri Adı-Soyadı giriş alanı -->
+                <div class="form-group row">
+                    <label for="DomainCrm" class="col-sm-3 col-form-label">Müşteri Adı-Soyadı:</label>
+                    <div class="col-sm-9">
+                        <!-- Kullanıcının müşteri adı ve soyadını girmesi gereken text input -->
+                        <input type="text" class="form-control" id="DomainCrm" name="DomainCrm" required>
+                    </div>
+                </div>
+                <!-- Geri Getireceği Tarih giriş alanı -->
+                <div class="form-group row">
+                    <label for="ReleaseDate" class="col-sm-3 col-form-label">Geri Getireceği Tarih:</label>
+                    <div class="col-sm-9">
+                        <!-- Kullanıcının tarihi seçmesi gereken date input -->
+                        <input type="date"
+                               id="ReleaseDate"
+                               name="ReleaseDate"
+                               class="form-control datefield"
+                               data-val="true"
+                               data-val-required="Date is required"
+                               min="@DateTime.Now.ToString("yyyy-MM-dd")"
+                               required />
+                    </div>
+                </div>
+                <!-- Kaydet düğmesi -->
+                <div class="text-center">
+                    <!-- Müşteri bilgilerini göndermek için kaydet düğmesi -->
+                    <input type="submit"
+                           value="Kaydet"
+                           class="btn btn-success"
+                           asp-action="SaveCustomer" />
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
