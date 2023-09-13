@@ -53,11 +53,20 @@ Uygulama başlatıldığında, ana ekran kütüphanedeki kitapları listeleyecek
 ★**Aşşağıdaki resimlerde uygulama içindeki resimler mevcut**<br>
 
 <img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/Anasayfa.png" width="auto"> <br>
-➜*Bu kısımda kitapları liste halinde görebilirsiniz.*
+➜*Bu kısımda kitapları liste halinde görebilirsiniz.* <br>
+
 <img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/KitapEkleme.png" width="auto">
-➜*Bu kısımda kütüphaneye yeni kitap ekleyebilirsiniz.*
+➜*Bu kısımda kütüphaneye yeni kitap ekleyebilirsiniz.* <br>
+
 <img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/Odun%C3%A7ver.png" width="auto">
-➜*Bu kısımda kütüphanede mevcut olan kitabı ödünç vererek, müşteri adı ve geri getireceği tarih girilir veri tabanına kaydedilir.*
+➜*Bu kısımda kütüphanede mevcut olan kitabı ödünç vererek, müşteri adı ve geri getireceği tarih girilir veri tabanına kaydedilir.* <br>
+
 <img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/SonAnasayfa.png" width="auto">
-➜*Gördüğünüz gibi ödünç alınınan kitap dışarıda gözüküyor.Hangi müşteride olduğu ve geri getireceği tarih listeleniyor.*
+➜*Gördüğünüz gibi ödünç alınınan kitap dışarıda gözüküyor.Hangi müşteride olduğu ve geri getireceği tarih listeleniyor.* <br>
+
+🌟**Kod Kalitesi ve Güvenlik**<br>
+
+➜**Bu uygulama, güvenlik açısından en iyi uygulamaları takip eder.**
+
+➜**Kod, temiz ve okunabilir olacak şekilde düzenlenmiştir. Ayrıca, bağımlılıklar için NuGet paketleri kullanılmıştır.**
 
