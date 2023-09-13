@@ -13,10 +13,11 @@ Kütüphanedeki kitapların takibi.<br>
 > Alıntı Yeni kitap eklemek için bir arayüz.<br>
 
 ***Teknik Altyapılar***<br>
+
 *Bu projede aşağıdaki teknik altyapılar kullanılmıştır:*<br>
 
-.NET Core MVC: Sunucu tarafı web uygulama çerçevesi.<br>
-Veritabanı: MSSQL veya PostgreSQL veritabanı kullanılabilir.<br>
-Entity Framework (EF): Veritabanı işlemleri için ORM (Nesne İlişkilendirme Yönetimi) aracı.<br>
-HTML5, Bootstrap, ve jQuery: Ön yüz tasarımı için kullanılan teknolojiler.<br>
+🌟 Başlık .NET Core MVC: Sunucu tarafı web uygulama çerçevesi.<br>
+🌟 Başlık Veritabanı: MSSQL veya PostgreSQL veritabanı kullanılabilir.<br>
+🌟 Başlık Entity Framework (EF): Veritabanı işlemleri için ORM (Nesne İlişkilendirme Yönetimi) aracı.<br>
+🌟 Başlık HTML5, Bootstrap, ve jQuery: Ön yüz tasarımı için kullanılan teknolojiler.<br>
 Kurulum<br>
