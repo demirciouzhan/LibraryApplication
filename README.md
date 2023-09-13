@@ -31,6 +31,6 @@
 
 ★*Veritabanını oluşturmak için aşağıdaki komutları kullanın:*
 
-➜Enable-Migrations
-➜Add-migration 'your-database'
+➜Enable-Migrations<br>
+➜Add-migration 'your-database'<br>
 ➜Update-database
