@@ -7,10 +7,10 @@
 *Bu uygulama, bir kütüphanenin kitaplarını yönetmek ve ödünç vermek için kullanılan bir .NET Core MVC uygulamasıdır. Aşağıdaki ana özelliklere sahiptir:*<br>
 
 Kütüphanedeki kitapların takibi.<br>
-Kitapların mevcut durumunu (kütüphanede veya dışarıda) gösterme.<br>
-Kitapları alfabetik sırayla listeleyen bir giriş ekranı.<br>
-Kitapları ödünç verme ve geri alma işlemleri.<br>
-Yeni kitap eklemek için bir arayüz.<br>
+> Alıntı Kitapların mevcut durumunu (kütüphanede veya dışarıda) gösterme.<br>
+> Alıntı Kitapları alfabetik sırayla listeleyen bir giriş ekranı.<br>
+> Alıntı Kitapları ödünç verme ve geri alma işlemleri.<br>
+> Alıntı Yeni kitap eklemek için bir arayüz.<br>
 
 ***Teknik Altyapılar***<br>
 *Bu projede aşağıdaki teknik altyapılar kullanılmıştır:*<br>
