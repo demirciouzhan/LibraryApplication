@@ -17,9 +17,9 @@
 *Bu projede aşağıdaki teknik altyapılar kullanılmıştır:*<br>
 
 ➜ .NET Core MVC: Sunucu tarafı web uygulama çerçevesi.<br>
-➜ Veritabanı: MSSQL veya PostgreSQL veritabanı kullanılabilir.<br>
+➜ Veritabanı: MSSQL veritabanı kullanıldı.<br>
 ➜ Entity Framework (EF): Veritabanı işlemleri için ORM (Nesne İlişkilendirme Yönetimi) aracı.<br>
-➜ HTML5, Bootstrap, ve jQuery: Ön yüz tasarımı için kullanılan teknolojiler.<br>
+➜ HTML5, Bootstrap: Ön yüz tasarımı için kullanılan teknolojiler.<br>
 
 📦**Kurulum**<br>
 
@@ -28,3 +28,9 @@
 ✔️'git clone <repo_url>'
 
 ★*Veritabanı bağlantı ayarlarınızı appsettings.json dosyasında yapılandırın. Özellikle veritabanı türünü  ve bağlantı dizesini ayarlayın.*
+
+★*Veritabanını oluşturmak için aşağıdaki komutları kullanın:*
+
+➜Enable-Migrations
+➜Add-migration 'your-database'
+➜Update-database
