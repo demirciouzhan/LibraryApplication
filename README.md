@@ -50,4 +50,14 @@
 
 Uygulama başlatıldığında, ana ekran kütüphanedeki kitapları listeleyecektir. Kitapları eklemek, ödünç vermek için uygulama üzerindeki düğmeleri kullanabilirsiniz.<br>
 
-<img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/Anasayfa.png" width="auto">
+★**Aşşağıdaki resimlerde uygulama içindeki resimler mevcut**<br>
+
+<img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/Anasayfa.png" width="auto"> <br>
+➜*Bu kısımda kitapları liste halinde görebilirsiniz.*
+<img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/KitapEkleme.png" width="auto">
+➜*Bu kısımda kütüphaneye yeni kitap ekleyebilirsiniz.*
+<img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/Odun%C3%A7ver.png" width="auto">
+➜*Bu kısımda kütüphanede mevcut olan kitabı ödünç vererek, müşteri adı ve geri getireceği tarih girilir veri tabanına kaydedilir.*
+<img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/SonAnasayfa.png" width="auto">
+➜*Gördüğünüz gibi ödünç alınınan kitap dışarıda gözüküyor.Hangi müşteride olduğu ve geri getireceği tarih listeleniyor.*
+
