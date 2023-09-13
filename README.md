@@ -25,18 +25,18 @@
 
 ★*Projeyi GitHub'dan klonlayın:*
 
+✔️'git clone <repo_url>'
+
 📦*Paket Kurulumları*<br>
 
 ➜**NuGet Paket Yöneticisini Açın: Tools➜NuGet Package Manager➜Manage NuGet Packages for Solution  yolunu izleyerek ilgili kısmı açın,Aşşağıdaki paketleri yükleyin:**<br>
 
->EntityFramework
->Microsoft.EntityFrameworkCore
->Microsoft.EntityFrameworkCore.Design
->Microsoft.EntityFrameworkCore.SqlServer
->Microsoft.EntityFrameworkCore.Tools
+>EntityFramework<br>
+>Microsoft.EntityFrameworkCore<br>
+>Microsoft.EntityFrameworkCore.Design<br>
+>Microsoft.EntityFrameworkCore.SqlServer<br>
+>Microsoft.EntityFrameworkCore.Tools<br>
 
-
-✔️'git clone <repo_url>'
 
 ★*Veritabanı bağlantı ayarlarınızı appsettings.json dosyasında yapılandırın. Özellikle veritabanı türünü  ve bağlantı dizesini ayarlayın.*
 
