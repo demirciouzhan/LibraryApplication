@@ -32,5 +32,9 @@
 ★*Veritabanını oluşturmak için aşağıdaki komutları kullanın:*
 
 ➜Enable-Migrations<br>
-➜Add-migration 'your-database'<br>
+➜Add-migration 'kullanacağınız-isim'<br>
 ➜Update-database
+
+🌟**Kullanım**<br>
+
+Uygulama başlatıldığında, ana ekran kütüphanedeki kitapları listeleyecektir. Kitapları eklemek, ödünç vermek veya geri almak için uygulama üzerindeki düğmeleri kullanabilirsiniz.
