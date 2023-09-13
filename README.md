@@ -29,7 +29,7 @@
 
 ★*Veritabanı bağlantı ayarlarınızı appsettings.json dosyasında yapılandırın. Özellikle veritabanı türünü  ve bağlantı dizesini ayarlayın.*
 
-★*Veritabanını oluşturmak için aşağıdaki komutları kullanın:*
+★* Code-first ile veritabanını oluşturmak için aşağıdaki komutları kullanın:*
 
 ➜Enable-Migrations<br>
 ➜Add-migration 'kullanacağınız-isim'<br>
