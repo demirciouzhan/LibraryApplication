@@ -48,4 +48,6 @@
 
 🌟**Kullanım**<br>
 
-Uygulama başlatıldığında, ana ekran kütüphanedeki kitapları listeleyecektir. Kitapları eklemek, ödünç vermek için uygulama üzerindeki düğmeleri kullanabilirsiniz.
+Uygulama başlatıldığında, ana ekran kütüphanedeki kitapları listeleyecektir. Kitapları eklemek, ödünç vermek için uygulama üzerindeki düğmeleri kullanabilirsiniz.<br>
+
+<img src="https://github.com/demirciouzhan/LibraryApplication/blob/master/imagesforreadme/Anasayfa.png" width="auto">
